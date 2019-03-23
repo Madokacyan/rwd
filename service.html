@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>流變式網站</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="rwd.css" rel="stylesheet" type="text/css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="jquery.bxslider.min.js"></script>
+<link href="jquery.bxslider.css" rel="stylesheet" />
+</head>
+
+<body>
+<div id="header">
+  <div id="header-inner">
+  <h1>三欄式響應式網站</h1></div>
+</div>
+
+<div id="menu">
+  <ul>
+    <div id="menu-inner">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="about.html">關於我們</a></li>
+      <li><a href="service.html">服務項目</a></li>
+      <li><a href="goods.html">相關商品</a></li>
+      <li><a href="photo.html">相簿集</a></li>
+      <li><a href="mail.html">聯絡我們</a></li>
+    </div>
+  </ul>
+</div>
+<div id="content">
+<div id="photo">
+  <ul class="bxslider">
+    <li><img src="web14/images/p01.jpg" width="500" height="375"></li>
+    <li><img src="web14/images/p02.jpg" width="500" height="375"></li>
+    <li><img src="web14/images/p03.jpg" width="500" height="375"></li>
+    <li><img src="web14/images/p04.jpg" width="500" height="375"></li>
+  </ul>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    
+$('.bxslider').bxSlider({
+  auto: true,
+  autoControls: true
+});
+  });
+</script>
+  </div>
+
+<div id="content003">
+  <p>網站建置有其專業，與平面出版、電視製作並不相同，從資訊架構、使用介面的規劃，到視覺設計、平台建置、系統調校，我們有專案知識與豐富經驗可以協助您。 </p>
+  <p>網路是窮人的原子彈？透過網路，資源不足的個人或非營利組織，也都有機會實現改變世界的理想。我們樂意協助有理想的個人或團體，從網路開始行動進而改變社會！</p>
+  <h1>服務項目</h1>
+  <ul>
+    <li>Logo 設計 </li>
+    <li>網頁視覺設計 </li>
+    <li>硬體採買 / 租用 </li>
+    <li>伺服器系統調整 </li>
+    <li>資料庫系統架設 / 租用 </li>
+    <li>網站後端系統建置 </li>
+    <li>網站前端系統建置</li>
+    <li> 品保測試 </li>
+    <li>系統維護</li>
+    <li> 內容維護、營運</li>
+  </ul>
+  </div>
+
+
+</div>
+<div id="footer"><strong>流變式網站 copyright © LINDA</strong></div>
+
+</body>
+</html>

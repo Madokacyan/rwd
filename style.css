@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+p{
+	text-align:justify;
+}
+#header{
+	background-color:#CCC;
+	padding-top:50px;
+	padding-bottom:50px;
+}/*也可在header-inner用行高*/
+#header-inner{
+	max-width:1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#menu{
+	background-color:#666;
+	margin-bottom:50px;
+	overflow:hidden;
+}
+
+#menu-inner{
+	max-width:1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#menu-inner li{
+	list-style:none;
+}
+
+
+#menu-inner li a:hover {
+	background-color:#333;
+}
+
+#content{
+	max-width:1100px;
+	min-height:400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#up{
+	margin-bottom:50px;
+	overflow:hidden;
+}
+#down{
+	clear:both;
+}
+
+.text02{
+	background-color:#FC3;
+	padding:20PX;
+	margin-bottom:10PX;
+}
+
+#footer {
+	clear:both;
+	background-color:#666;
+	color:#FFF;
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+}
+
+/***********about***********/
+#about h1{
+	font-size: 18px;
+	line-height: 50px;
+	color: #FFF;
+	background-color: #CCC;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius:30px;	
+	text-shadow:0 0 10PX #FF0000;
+	box-shadow:0 0 10PX #FF0000;
+}
+
+#about p{
+	line-height: 1.5;
+	margin-bottom: 20px;	
+	}
+
+.img_circle{
+	border-radius:30px 0 30px 0;
+	box-shadow:5px 5px 10PX #063;
+	}
+	
+/***********service***********/
+
+#content003 h1{
+	background-color:#CCCCCC;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:16px;
+	line-height:50px;	
+}
+#content003 li{
+	margin-left:20px;
+}
+
+
+/***********photo***********/
+.img_lightbox{
+	/*width:30%;
+	height:auto;
+	margin-right:2%;
+	margin-bottom:2%;
+以上移至自適應CSS*/
+	border:#FFFFFF 5px solid;
+	box-shadow:2px 2px 10px #666666;
+
+}
+/***********mail***********/
+.mail{
+  margin:auto;
+  border-radius:10px;
+  text-align: center;
+}

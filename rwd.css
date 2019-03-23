@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+@media screen and (max-width: 480px){
+div{color:#0F0}
+
+#menu-inner li a{
+	display:block;
+	padding:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	text-decoration:none;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.one{
+	width:90%;
+	margin:auto;
+	margin-bottom:5%;}
+.two{
+	width:90%;
+	margin:auto;
+	margin-bottom:5%;}
+.three{
+	width:90%;
+	margin:auto;
+	margin-bottom:5%;}
+#main{
+	width:90%;
+	margin:auto;
+	margin-bottom:5%;}
+#sidebar {
+	width:100%;
+}
+/***********about***********/
+.text03{
+	width:100%;
+}
+/***********service***********/
+#photo{
+	width:auto;
+	margin:5%;
+}
+
+#contentservice{
+	width:auto;
+	line-height: 2;
+	margin:5%;
+}
+
+/***********photo***********/
+.img_lightbox{
+	width:90%;
+	height:auto;
+	margin:3%;
+}
+
+/***********mail***********/
+.mail{
+	min-width:40%;
+}
+.title, .bcon{
+	min-width:60%;
+}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px)  {
+div{color:#F00}
+
+#menu-inner li a{
+	display:block;
+	float:left;
+	padding:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.one{
+	width:43%;
+	margin-left:5%;
+	float:left;
+	margin-bottom:5%;}
+.two{
+	width:43%;
+	margin-left:5%;
+    float:left;
+	margin-bottom:5%;}
+.three{
+	margin:auto;
+	clear:both;}
+#main{
+	width:60%;
+	margin-right:5%;
+	float:left;
+}
+#sidebar {
+	width:35%;
+	float:left;
+}
+/***********about***********/
+.text03{
+	width:45%;
+	margin:2%;
+	float:left;}
+
+/***********service***********/
+#photo{
+	width:auto;
+	margin:5%;
+}
+
+#contentservice{
+	width:auto;
+	margin:5%;
+	line-height: 2;
+}
+/***********photo***********/
+.img_lightbox{
+	float:left;
+	width:45%;
+	margin-left:2%;
+	margin-bottom: 2%;
+}
+/***********mail***********/
+.mail{
+	min-width:60%;
+}
+.title, .bcon{
+	min-width:70%;
+}
+}
+
+@media screen and (min-width: 769px) {
+P{color:#0000FF}
+
+#menu-inner li a{
+	display:block;
+	float:left;
+	padding:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.one{
+	width:30%;
+	margin-right:5%;
+	float:left;}
+.two{
+	width:30%;
+	margin-right:5%;
+    float:left;}
+.three{
+	width:30%;
+	float:left;}
+#main{
+	width:65%;
+	margin-right:5%;
+	float:left;
+}
+#sidebar {
+	width:30%;
+	float:left;
+}
+/***********about***********/
+.text03{
+	width:18%;
+	margin-right:2%;
+	float:left;}
+
+/***********service***********/
+#photo{
+	float:left;
+	width:55%;
+	margin-right:5%;
+}
+
+#contentservice{
+	float:left;
+	width:40%;
+	line-height: 2;
+}
+/***********photo***********/
+.img_lightbox{
+	width:30%;
+	height:auto;
+	margin-right:2%;
+	margin-bottom:2%;
+	float:left;
+}
+/***********mail***********/
+.mail{
+	min-width:70%;
+}
+.title, .bcon{
+	width:80%;
+}
